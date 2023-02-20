@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kegan Allen Portfolio</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gameStyles.css">
+  </head>
+  <body>
+
+
+    <div class="container-fluid" id="navContainer">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/richard-allen-b1466b159/">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#simonGame">Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
+    <div class="row container-fluid" id="row">
+
+    <div class="col-lg-7 col-sm-12 title">
+
+
+      <h1>I'm Kegan Allen,</h1>
+      <h2>a Web Developer</h2>
+      <p>Play My Flippy Box Game!</p>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 space" id="gameContainer">
+        <!-- <a href="https://keganallen22.github.io/Simon-Game/"><img class="space_invader"src="images/space-invaders.png" alt="flaticon"></a>
+        <a href="https://keganallen22.github.io/Tin-Dog/"><img class="planet"src="images/planet.png" alt="glaticon"></a>
+        <img class="planet 2"src="images/planet2.png" alt="flaticon"> -->
+      <div id="header">
+        <div class="header">
+          <h1>Flippy Box</h1>
+          <img id="headerImg" src="headerImage.jpg" alt="">
+        </div>
+
+        <div class="score-container">
+            <div id="bestScore"></div>
+            <div id="currentScore"></div>
+          </div>
+          </div>
+        <div id="game">
+          <p id="gameOver"></p>
+          <p id="restartText"></p>
+          <button id="button">Press ME</button>
+          <div id="block">
+
+          </div>
+          <div id="hole"></div>
+          <div id="blockTop">
+          </div>
+          <div id="blockBottom">
+          </div>
+          <div id="character">
+            <!-- <img  src="space-ship.png" alt=""> -->
+          </div>
+
+          <div id="backgroundMood">
+            <!-- <img src="Mood.png" alt="" > -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+<section id="Experience">
+
+  <div class="middle-container">
+<div class="profile">
+  <img class="profile-picture"src="images/Kegan Profile Shot.jpg" alt="Kegan's Profile Shot"width="250" hight="350">
+  <h2>Hello.</h2>
+  <p class="description">I am a aspiring Web Developer while working as a Software Quality Analyst, my previous occupation was an Golf Professional. I enjoy playing the game of Golf and learning new coding languages.</p>
+</div>
+<hr>
+<div class="skills">
+  <h2>My Skills.</h2>
+  <div class="skill-row">
+    <img class="brain" src="images/coding brain.png" alt="A picture of a brain coding">
+    <h3>Problem Solver & Quick Learner</h3>
+    <p>With my experience in my first career as a PGA Golf Professional I learned that I love to solve problems. I enjoy learning a new skill and being challenged. I have always been interesting in becoming a programmer, here I am happy to jump at that dream.</p>
+  </div>
+  <div class="skill-row">
+    <img class="golf" src="images/golf-field.png" alt="Vector art image of a golf course">
+    <h3>PGA Golf Professional</h3>
+    <p>My previous career was managing the game of golf. With that I have become a very skilled golfer and teacher of the game.</p>
+  </div>
+</div>
+
+</div>
+</section>
+<section id="simonGame">
+
+<div class="big_container container-fluid">
+  <h2>Test Your Memory with a game!</h2>
+  <h1 id="level-title">Click Here to Start</h1>
+<div class="row container" id="row">
+
+<div class="col-lg-8 col-md-12">
+  <div class="row container-fluid">
+
+    <div type="button" id="green" class="btn1 green .col-md-6">
+
+    </div>
+
+    <div type="button" id="red" class="btn1 red .col-md-6">
+
+    </div>
+  </div>
+
+  <div class="row container-fluid">
+
+    <div type="button" id="yellow" class="btn1 yellow .col-md-6">
+
+    </div>
+    <div type="button" id="blue" class="btn1 blue .col-md-6">
+
+    </div>
+
+  </div>
+
+</div>
+<div class="col-lg-4 col-md-12">
+  <table style="width:600px">
+    <tr>
+      <th>Place</th>
+      <th>Name</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>1ST</td>
+      <td class="1name">Kegan Allen</td>
+      <td class="1score">10</td>
+    </tr>
+    <tr>
+      <td>2ND</td>
+      <td class="2name"></td>
+      <td class="2score"></td>
+    </tr>
+  </table>
+</div>
+
+</div>
+</div>
+</section>
+<section id="Contact">
+
+
+<div class="contact-me">
+  <h2>Get In Touch.</h2>
+  <p class="contact-intro">If you love the game of golf, beat my high score, or love programming reach out!</p>
+  <p class="contact-desc">I love to hear from all perspectives on how the game of golf is played and learning new things of web development.</p>
+  <a type="button"class="btn btn-outline-light btn-lg download-button"href="mailto:Keganallen22@gmail.com"><i class="fa-brands fa-google-play"></i> CONTACT ME</a>
+</div>
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/richard-allen-b1466b159/">LinkedIn</a>
+  <a class="footer-link" href="https://github.com/Keganallen22">Github</a>
+  <a class="footer-link" href="https://keganallen22.github.io/Tin-Dog/">Website</a>
+  <p class="copywright">© 2022 Kegan Allen</p>
+</div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="gameFlippyBox.js" charset="utf-8"></script>>
+<script src="gameSimon.js" charset="utf-8"></script>>
+
+  </body>
+</html>

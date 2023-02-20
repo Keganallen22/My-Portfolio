@@ -1,0 +1,232 @@
+body {
+  background-color: #011F3F;
+  text-align: center;
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+}
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #FEF2BF;
+}
+h3{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+}
+p{
+  font-family: 'Source Code Pro', cursive;
+  font-size: 1rem;
+  color: #ffff;
+}
+#row{
+  flex-wrap: wrap;
+  padding-top: 0;
+}
+#navContainer{
+  padding-bottom: 0;
+}
+/* #gameContainer{
+    border-radius: 40px;
+    border: 2px solid white;
+    padding-left: 0;
+    padding-right: 0px;
+} */
+
+.background{
+  width: 100%;
+}
+.container-fluid{
+  padding: 3% 5% 4%;
+}
+/* Navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  color: #DDDDDD;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Press Start 2P", cursive;
+}
+/* Main Page */
+.title{
+  padding-top: 10%;
+  text-align: left;
+  line-height: 10;
+}
+.space_invader{
+  width: 25%;
+  transform: rotate(225deg);
+
+}
+.planet{
+  width: 60%;
+}
+.plant2{
+  width: 60%;
+}
+.space{
+  /* padding-top: 10% */
+  overflow: hidden;
+
+}
+.middle-container{
+  background-color: #2D4059;
+  padding-bottom: 3%;
+}
+.profile-picture{
+  border-radius: 50%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.description{
+  padding: 0 10% 0% 10%;
+  line-height: 2;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #DDDDDD;
+  border-width: 15px;
+  width: 25%;
+  margin: 5% auto 5% auto;
+}
+.skill-row {
+  width: 75%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.brain{
+  width: 15%;
+  float: left;
+  margin-right: 50px;
+}
+.golf{
+  width: 15%;
+  float: right;
+  margin-left: 50px;
+}
+.contact-me{
+  margin: 100px auto 50px auto;
+}
+.contact-desc{
+  margin: 50px auto 60px auto;
+}
+.contact-intro{
+  font-size: 1.5rem;
+}
+/* Game */
+.big_container{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  4%;
+  color: #FEF2BF;
+}
+.container_1{
+  /* padding: 0px 100px 0px 200px; */
+}
+.container {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+}
+table{
+  width: 100%;
+  margin-right: 0px;
+  margin-left: auto;
+
+}
+th{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  color: #FEF2BF;
+  padding: 10% 0 2% 0;
+  text-align: center;
+
+}
+td{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+  padding: 20px;
+  text-align: center;
+}
+.row{
+  flex-wrap: nowrap;
+  display: flex;
+}
+.text_break {
+  overflow-wrap: break-word;
+}
+.btn1 {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+#Contact{
+  background-color: #2D4059;
+  padding-top: 1%;
+}
+.bottom-container{
+  background-color: ;
+  padding: 50px 0 20px;
+}
+.footer-link{
+  font-family: 'Press Start 2P';
+  color: #FEF2BF;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.copywright{
+  color: FEF2BF;
+  font-size: .75rem;
+  padding: 20px 0;
+}
